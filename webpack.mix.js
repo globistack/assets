@@ -23,6 +23,7 @@ mix.scripts([
  */
 mix.styles([
     'node_modules/select2/dist/css/select2.min.css',
+    'node_modules/select2-bootstrap-5-theme/dist/select2-bootstrap-5-theme.min.css'
 ], 'public/css/select2.min.css');
 
 mix.scripts([
