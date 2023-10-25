@@ -1,4 +1,4 @@
 {
-    "/public/bootstrap5.min.css": "/public/bootstrap5.min.css",
-    "/resources/assets/dist/js/bootstrap5.min.js": "/resources/assets/dist/js/bootstrap5.min.js"
+    "/public/css/bootstrap5.min.css": "/public/css/bootstrap5.min.css",
+    "/public/js/bootstrap5.min.js": "/public/js/bootstrap5.min.js"
 }
