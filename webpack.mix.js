@@ -15,8 +15,11 @@ mix.styles([
 
 mix.scripts([
     'node_modules/bootstrap/dist/js/bootstrap.min.js',
-    'node_modules/@popperjs/core/dist/umd/popper.min.js',
 ], 'public/js/bootstrap5.min.js');
+
+mix.scripts([
+    'node_modules/@popperjs/core/dist/umd/popper.min.js',
+], 'public/js/popper.min.js');
 
 /**
  * Select2 libraries
