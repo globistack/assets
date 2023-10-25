@@ -31,6 +31,14 @@ mix.scripts([
 ], 'public/js/select2.min.js');
 
 /**
+ * List.js libraries
+ */
+
+mix.scripts([
+    'node_modules/list.js/dist/list.min.js',
+], 'public/js/list.min.js');
+
+/**
  * Optimize minified assets
  */
 mix.then(data => GlobstackMix.optimize(data));
