@@ -7,7 +7,7 @@ const GlobstackMix = require('globistack-mix');
 mix.options(GlobstackMix.getConfig());
 
 /**
- * Vendor libraries
+ * Bootstrap libraries
  */
 mix.styles([
     'node_modules/bootstrap/dist/css/bootstrap.min.css',
@@ -17,6 +17,17 @@ mix.scripts([
     'node_modules/bootstrap/dist/js/bootstrap.min.js',
     'node_modules/@popperjs/core/dist/umd/popper.min.js',
 ], 'public/js/bootstrap5.min.js');
+
+/**
+ * Select2 libraries
+ */
+mix.styles([
+    'node_modules/select2/dist/css/select2.min.css',
+], 'public/css/select2.min.css');
+
+mix.scripts([
+    'node_modules/select2/dist/js/select2.min.js',
+], 'public/js/select2.min.js');
 
 /**
  * Optimize minified assets

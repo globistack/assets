@@ -8,6 +8,7 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.2",
     "globistack-mix": "^1.0.4",
-    "laravel-mix": "^6.0.43"
+    "laravel-mix": "^6.0.43",
+    "select2": "~4.0"
   }
 }
